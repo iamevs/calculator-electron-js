@@ -1,17 +1,20 @@
-html,
-body {
 
+html, body{
+    
   width: 100%;
   height: 100vh;
 }
 
-:root {
+:root{
 
-  --ButtonColor: rgb(64, 64, 64);
+  --ButtonColor: rgb(22, 22, 22);
   --DisplayColor: rgb(230, 230, 230);
-  --ButtonHover: rgb(63, 63, 63);
-}
-* {
+  --ButtonHover: rgb(34, 34, 34);
+} 
+
+/* Reset */
+
+*{
 
   padding: 0;
   margin: 0;
@@ -28,7 +31,7 @@ body {
   border: 0;
 }
 
-.calc_display {
+.calc_display{
 
   width: 100%;
   height: 40%;
@@ -44,30 +47,31 @@ body {
   padding-right: 60px;
 }
 
-.calc_display :nth-child(1) {
+.calc_display :nth-child(1){
 
   font-size: 1.2rem;
   color: black;
 }
 
-.calc_display :nth-child(2) {
+.calc_display :nth-child(2){
 
   font-size: 2.9rem;
   color: black;
   font-weight: 300;
 }
 
-.calc_keys .disabled {
+.calc_keys .disabled{
 
+  text-decoration: line-through;
   background-color: rgba(255, 0, 0, 0.04);
 }
 
-.calc_keys .disabled:hover {
+.calc_keys .disabled:hover{
 
   background: rgba(255, 0, 0, 0.04);
 }
 
-.calc_keys {
+.calc_keys{
 
   width: 100%;
   height: 60%;
@@ -76,13 +80,13 @@ body {
   background: linear-gradient(45deg, rgb(17, 17, 17), rgb(63, 60, 60));
 }
 
-.calc_keys table {
+.calc_keys table{
 
   width: 100%;
   height: 100%;
 }
 
-.calc_keys td {
+.calc_keys td{
 
   width: 180px;
   transition: 0.9s cubic-bezier(0.215, 0.610, 0.355, 1);
@@ -93,19 +97,17 @@ body {
   border-radius: 5px;
 }
 
-.calc_keys td:hover {
+.calc_keys td:hover{
 
-  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184));
-  /* transform: scale(1.1); */
+  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184))
 }
 
-
-.space_button {
+.space_button{
 
   opacity: 0;
 }
 
-#calc-equal {
+#calc-equal{
 
   background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184))
 }

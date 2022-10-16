@@ -95,10 +95,8 @@ body {
 
 .calc_keys td:hover {
 
-  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184));
-  /* transform: scale(1.1); */
+  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184))
 }
-
 
 .space_button {
 

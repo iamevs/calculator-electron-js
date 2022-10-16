@@ -7,9 +7,9 @@ body {
 
 :root {
 
-  --ButtonColor: rgb(64, 64, 64);
+  --ButtonColor: rgb(22, 22, 22);
   --DisplayColor: rgb(230, 230, 230);
-  --ButtonHover: rgb(63, 63, 63);
+  --ButtonHover: rgb(34, 34, 34);
 }
 * {
 
@@ -95,10 +95,8 @@ body {
 
 .calc_keys td:hover {
 
-  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184));
-  /* transform: scale(1.1); */
+  background: linear-gradient(45deg, rgb(28, 26, 131), rgb(50, 48, 184))
 }
-
 
 .space_button {
 
