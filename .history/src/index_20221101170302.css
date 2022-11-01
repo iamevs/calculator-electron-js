@@ -26,7 +26,7 @@ body {
 
   outline: none;
   border: 0;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .calc_display {
