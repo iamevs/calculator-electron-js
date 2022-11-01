@@ -2,7 +2,7 @@
   "name": "calculator",
   "productName": "calculator",
   "version": "1.0.0",
-  "description": "A Simple calculator Project using electron js.",
+  "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
