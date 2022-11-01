@@ -1,1 +1,0 @@
-run calculator.exe
